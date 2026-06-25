@@ -1,7 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
-import { marked } from 'marked';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -11,14 +10,65 @@ export async function getStaticPaths() {
   }));
 }
 
+function renderBody(text) {
+  if (!text) return '';
+  
+  // Clean WP artifacts
+  let lines = text.split('\n');
+  let clean = [];
+  let skip = false;
+  
+  for (let line of lines) {
+    let trimmed = line.trim();
+    if (!trimmed) { clean.push(''); continue; }
+    
+    // Skip WP metadata lines
+    if (/^By\s*$/i.test(trimmed)) { skip = true; continue; }
+    if (skip && /^(Gink Digital|\/|\w+ \d+, \d+)$/i.test(trimmed)) continue;
+    skip = false;
+    
+    // Headings
+    if (/^#{1,3}\s/.test(trimmed)) {
+      let level = trimmed.match(/^(#{1,3})/)[0].length;
+      let content = trimmed.replace(/^#{1,3}\s*/, '');
+      clean.push(`<h${level}>${content}</h${level}>`);
+      continue;
+    }
+    
+    // Horizontal rule
+    if (trimmed === '---') { clean.push('<hr>'); continue; }
+    
+    // Bold
+    trimmed = trimmed.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    // Links
+    trimmed = trimmed.replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="text-green-700 hover:underline">$1</a>');
+    
+    clean.push(trimmed);
+  }
+  
+  // Group into paragraphs by blank lines
+  let html = '';
+  let para = [];
+  for (let line of clean) {
+    if (line === '') {
+      if (para.length > 0) {
+        html += '<p>' + para.join(' ') + '</p>\n';
+        para = [];
+      }
+    } else if (line.startsWith('<')) {
+      if (para.length > 0) { html += '<p>' + para.join(' ') + '</p>\n'; para = []; }
+      html += line + '\n';
+    } else {
+      para.push(line);
+    }
+  }
+  if (para.length > 0) html += '<p>' + para.join(' ') + '</p>';
+  
+  return html;
+}
+
 const { post } = Astro.props;
-
-// Clean up WordPress artifacts from body
-let body = post.body || '';
-body = body.replace(/By\s*\n+\s*Gink Digital\s*\/\s*\n+\s*\w+ \d+, \d+/g, '');
-body = body.replace(/^\s*[\d\s]*$/gm, '');
-
-const htmlContent = marked.parse(body);
+const htmlContent = renderBody(post.body || '');
 ---
 
 <Layout title={post.data.title} description={post.data.description}>
