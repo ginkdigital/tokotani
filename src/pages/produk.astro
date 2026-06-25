@@ -1,53 +1,108 @@
 ---
 import Layout from '../layouts/Layout.astro';
 const title = "Produk - Toko Tani Kalteng Green Al Fatih";
-const description = "Asxone 138 SL: herbisida sistemik berkualitas untuk petani Kalimantan. Tersedia pengiriman ke seluruh Kalimantan.";
+const description = "Asxone 138 SL: herbisida kontak purna tumbuh. Sekali semprot, gulma mati total — panen maksimal, hasil berlipat. Kirim seluruh Kalimantan.";
 ---
 
 <Layout title={title} description={description}>
-  <section class="py-16 px-4 max-w-3xl mx-auto">
-    <h1 class="text-4xl font-bold text-center mb-4">Produk Kami</h1>
-    <p class="text-center text-gray-500 mb-12 max-w-2xl mx-auto">Kami menyediakan produk pertanian berkualitas untuk kebutuhan petani Kalimantan.</p>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-green-800 via-green-700 to-emerald-800 text-white py-12 sm:py-16 md:py-20 px-4 text-center reveal">
+    <h1 class="text-2xl sm:text-3xl md:text-5xl font-bold mb-3">Lihat Tetangga Panen 2x Lipat — Anda Masih Berjuang Lawan Gulma?</h1>
+    <p class="text-green-100 text-base sm:text-lg max-w-2xl mx-auto">Bukan salah lahan. Bukan salah bibit. Masalahnya cuma satu: herbisida Anda terlalu lemah.</p>
+  </section>
+
+  <!-- Product Image + The Hook -->
+  <div class="max-w-2xl mx-auto -mt-8 px-4 relative z-10 reveal">
+    <img src="/images/Toko-Tani-Green-Al-Fatih-Asxone-138-SL.webp" alt="Asxone 138 SL" class="w-full rounded-2xl shadow-2xl" loading="lazy" />
+  </div>
+
+  <section class="py-10 sm:py-16 px-4 max-w-3xl mx-auto">
     
-    <!-- Produk Utama -->
-    <div class="bg-white border rounded-2xl p-6 md:p-8 shadow-sm max-w-lg mx-auto mb-12">
-      <img src="/images/jual-asxone-138-SL-pangkalan-banteng-1024x576.webp" alt="Asxone 138 SL" class="w-full rounded-xl mb-4" loading="lazy" />
-      <h2 class="text-2xl font-bold mb-2">Asxone 138 SL</h2>
-      <span class="inline-block bg-green-100 text-green-800 text-xs font-bold px-3 py-1 rounded-full mb-3">Best Seller</span>
-      <p class="text-gray-600 mb-4">Herbisida sistemik berkualitas tinggi untuk mengendalikan gulma berdaun lebar pada tanaman padi, jagung, kelapa sawit, dan tanaman perkebunan lainnya.</p>
-      <ul class="text-sm text-gray-500 space-y-1 mb-6">
-        <li>✅ Bahan aktif 138 g/l — efektif untuk gulma resisten</li>
-        <li>✅ Sistemik — menyerap hingga ke akar gulma</li>
-        <li>✅ Tersedia berbagai ukuran kemasan</li>
-        <li>✅ Harga grosir tersedia</li>
-      </ul>
-      <a href="https://wa.me/6285251988382?text=Halo%2C%20saya%20mau%20tanya%20harga%20Asxone%20138%20SL" class="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-medium transition text-sm">💬 Tanya Harga Asxone</a>
-    </div>
+    <!-- BenBi Chain: Dari Gulma → Duit → Status -->
+    <div class="prose max-w-none text-gray-700 leading-relaxed">
+      
+      <h2 class="article-h2 reveal">Gulma Itu Perampok. Diam-Diam Dia Curi Hasil Panen Anda.</h2>
+      
+      <p class="reveal">Anda sudah kerja keras. Bangun subuh, pulang maghrib. Tapi pas panen — hasilnya segitu-gitu aja. Padahal tetangga yang lahannya sama luas, hasilnya bisa 2x lipat.</p>
+      
+      <p class="reveal"><strong class="article-strong">Bedanya cuma satu: dia pakai herbisida yang bener. Anda masih pakai yang murahan.</strong></p>
+      
+      <p class="reveal">Herbisida murah cuma bikin gulma layu sebentar. Besok udah segar lagi. Akhirnya Anda semprot lagi. Muncul lagi. Semprot lagi. <strong class="article-strong">Itu bukan bertani — itu buang-buang duit.</strong></p>
 
-    <!-- Area Tersedia -->
-    <div class="text-center mb-8">
-      <h2 class="text-2xl font-bold mb-2">Tersedia di Seluruh Kalimantan</h2>
-      <p class="text-gray-500 mb-6">Klik kota Anda untuk info detail:</p>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
-        <a href="/blog/jual-asxone-138-sl-kalimantan-tengah" class="bg-green-50 hover:bg-green-100 rounded-lg px-4 py-3 text-green-800 font-medium transition text-sm text-center">Kalimantan Tengah</a>
-        <a href="/blog/jual-asxone-138-sl-kalimantan-barat" class="bg-green-50 hover:bg-green-100 rounded-lg px-4 py-3 text-green-800 font-medium transition text-sm text-center">Kalimantan Barat</a>
-        <a href="/blog/jual-asxone-138-sl-kalimantan-selatan" class="bg-green-50 hover:bg-green-100 rounded-lg px-4 py-3 text-green-800 font-medium transition text-sm text-center">Kalimantan Selatan</a>
-        <a href="/blog/jual-asxone-138-sl-kalimantan-timur" class="bg-green-50 hover:bg-green-100 rounded-lg px-4 py-3 text-green-800 font-medium transition text-sm text-center">Kalimantan Timur</a>
-        <a href="/blog/jual-asxone-138-sl-kalimantan-utara" class="bg-green-50 hover:bg-green-100 rounded-lg px-4 py-3 text-green-800 font-medium transition text-sm text-center">Kalimantan Utara</a>
-        <a href="/blog/jual-asxone-138-sl-sampit" class="bg-green-50 hover:bg-green-100 rounded-lg px-4 py-3 text-green-800 font-medium transition text-sm text-center">Sampit</a>
-        <a href="/blog/jual-asxone-138-sl-pangkalan-bun" class="bg-green-50 hover:bg-green-100 rounded-lg px-4 py-3 text-green-800 font-medium transition text-sm text-center">Pangkalan Bun</a>
-        <a href="/blog/jual-asxone-138-sl-pangkalan-banteng" class="bg-green-50 hover:bg-green-100 rounded-lg px-4 py-3 text-green-800 font-medium transition text-sm text-center">Pangkalan Banteng</a>
-        <a href="/blog/jual-asxone-138-sl-sukamara" class="bg-green-50 hover:bg-green-100 rounded-lg px-4 py-3 text-green-800 font-medium transition text-sm text-center">Sukamara</a>
-        <a href="/blog/jual-asxone-138-sl-seruyan" class="bg-green-50 hover:bg-green-100 rounded-lg px-4 py-3 text-green-800 font-medium transition text-sm text-center">Seruyan</a>
-        <a href="/blog/beli-asxone-138-sl-pangkalan-banteng" class="bg-green-50 hover:bg-green-100 rounded-lg px-4 py-3 text-green-800 font-medium transition text-sm text-center">Cara Beli</a>
-        <a href="/pengiriman" class="bg-green-50 hover:bg-green-100 rounded-lg px-4 py-3 text-green-800 font-medium transition text-sm text-center">Info Pengiriman →</a>
+      <hr class="reveal" />
+
+      <h2 class="article-h2 reveal">Asxone 138 SL: Sekali Semprot, Gulma Mati — Panen Naik, Duit Masuk</h2>
+
+      <p class="reveal">Asxone 138 SL mengandung <strong class="article-strong">paraquat diklorida 276 g/l</strong> — konsentrasi tertinggi di kelas herbisida kontak. Dalam 2 jam setelah semprot, daun gulma mulai menguning. Dalam 24 jam? Mati total. Kering. Gak tumbuh lagi.</p>
+
+      <div class="article-table-wrapper reveal">
+        <table class="article-table">
+          <thead>
+            <tr><th>Herbisida Murah</th><th>Asxone 138 SL</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Semprot 3x — gulma masih ada</td><td>Sekali semprot — minggu depan masih bersih</td></tr>
+            <tr><td>Panen turun — hasil jual sedikit</td><td>Panen maksimal — duit lebih banyak</td></tr>
+            <tr><td>Beli herbisida terus — boncos</td><td>Satu botol cukup 2-4 hektar — hemat</td></tr>
+            <tr><td>Tetangga diam-diam kasihan</td><td>Tetangga tanya: "Rahasia lu apa?"</td></tr>
+          </tbody>
+        </table>
       </div>
-    </div>
 
-    <div class="text-center bg-green-50 rounded-2xl p-8">
-      <p class="text-lg mb-3">🤝 Butuh info lebih lanjut?</p>
-      <p class="text-gray-500 mb-4">Hubungi kami langsung — kami siap bantu kebutuhan pertanian Anda.</p>
-      <a href="https://wa.me/6285251988382" class="inline-block bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-bold transition">💬 Chat WhatsApp</a>
+      <hr class="reveal" />
+
+      <h2 class="article-h2 reveal">Ini Rumusnya: Gulma Mati → Panen Naik → Duit Banyak → Keluarga Tenang</h2>
+
+      <p class="reveal">Begitu gulma hilang, nutrisi tanah 100% buat tanaman Anda. Bukan buat gulma. Hasilnya?</p>
+
+      <ul class="article-ul reveal">
+        <li><strong class="article-strong">Panen lebih banyak per hektar</strong> — nutrisi gak dibagi-bagi ke gulma</li>
+        <li><strong class="article-strong">Kualitas panen lebih bagus</strong> — tanaman sehat = hasil premium = harga jual lebih tinggi</li>
+        <li><strong class="article-strong">Satu botol cukup 2-4 hektar</strong> — takaran cuma 2-3 ml per liter air</li>
+        <li><strong class="article-strong">Gak boros waktu</strong> — sekali semprot, beres. Gak perlu ulang-ulang</li>
+      </ul>
+
+      <div class="article-cta reveal">
+        <p class="text-sm opacity-90 mb-1">Bingung hitung kebutuhan lahan Anda?</p>
+        <a href="https://wa.me/6285251988382?text=Halo%2C%20saya%20mau%20konsultasi%20kebutuhan%20Asxone%20buat%20lahan%20saya" class="inline-block bg-green-500 hover:bg-green-400 text-white px-5 py-2 rounded-full text-sm font-bold transition">💬 Konsultasi Gratis</a>
+      </div>
+
+      <hr class="reveal" />
+
+      <h2 class="article-h2 reveal">Jangan Cuma Lihat Tetangga Sukses. Ini Giliran Anda.</h2>
+
+      <p class="reveal">Setiap musim tanam Anda tunda, tetangga makin jauh di depan. Musim ini dia panen 2x lipat. Musim depan dia beli motor baru. Musim depannya lagi dia renovasi rumah. <strong class="article-strong">Anda masih di tempat yang sama — lawan gulma pakai herbisida murah.</strong></p>
+
+      <p class="reveal"><strong class="article-strong">Asxone 138 SL bukan biaya. Ini investasi.</strong> Satu botol = panen lebih banyak = duit lebih banyak = keluarga lebih tenang = Anda jadi petani yang disegani.</p>
+
+
+
+      <div class="mt-8 text-center bg-green-600 text-white rounded-2xl p-8 reveal">
+        <p class="text-xl font-bold mb-2">🧪 Asxone 138 SL</p>
+        <p class="text-green-100 text-sm mb-4">Herbisida Kontak Purna Tumbuh — Kirim Seluruh Kalimantan</p>
+        <a href="https://wa.me/6285251988382?text=Halo%2C%20saya%20mau%20order%20Asxone%20138%20SL" class="inline-block bg-white text-green-800 px-8 py-3 rounded-full font-bold hover:bg-green-50 transition shadow-lg pulse-cta">💬 Order Sekarang</a>
+        <p class="text-green-200 text-xs mt-3">📞 0852-5198-8382</p>
+      </div>
+
+      <hr class="reveal" />
+
+      <h2 class="article-h2 reveal">Tersedia di Seluruh Kalimantan</h2>
+      <p class="reveal">Klik kota Anda — kami kirim langsung ke lokasi:</p>
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 not-prose text-sm reveal">
+        <a href="/blog/jual-asxone-138-sl-kalimantan-tengah" class="hover-lift bg-green-50 hover:bg-green-100 rounded-xl px-4 py-3 text-green-800 font-medium transition text-center">📍 Kalimantan Tengah</a>
+        <a href="/blog/jual-asxone-138-sl-kalimantan-barat" class="hover-lift bg-green-50 hover:bg-green-100 rounded-xl px-4 py-3 text-green-800 font-medium transition text-center">📍 Kalimantan Barat</a>
+        <a href="/blog/jual-asxone-138-sl-kalimantan-selatan" class="hover-lift bg-green-50 hover:bg-green-100 rounded-xl px-4 py-3 text-green-800 font-medium transition text-center">📍 Kalimantan Selatan</a>
+        <a href="/blog/jual-asxone-138-sl-kalimantan-timur" class="hover-lift bg-green-50 hover:bg-green-100 rounded-xl px-4 py-3 text-green-800 font-medium transition text-center">📍 Kalimantan Timur</a>
+        <a href="/blog/jual-asxone-138-sl-kalimantan-utara" class="hover-lift bg-green-50 hover:bg-green-100 rounded-xl px-4 py-3 text-green-800 font-medium transition text-center">📍 Kalimantan Utara</a>
+        <a href="/blog/jual-asxone-138-sl-sampit" class="hover-lift bg-green-50 hover:bg-green-100 rounded-xl px-4 py-3 text-green-800 font-medium transition text-center">📍 Sampit</a>
+        <a href="/blog/jual-asxone-138-sl-pangkalan-bun" class="hover-lift bg-green-50 hover:bg-green-100 rounded-xl px-4 py-3 text-green-800 font-medium transition text-center">📍 Pangkalan Bun</a>
+        <a href="/blog/jual-asxone-138-sl-pangkalan-banteng" class="hover-lift bg-green-50 hover:bg-green-100 rounded-xl px-4 py-3 text-green-800 font-medium transition text-center">📍 Pangkalan Banteng</a>
+        <a href="/blog/jual-asxone-138-sl-sukamara" class="hover-lift bg-green-50 hover:bg-green-100 rounded-xl px-4 py-3 text-green-800 font-medium transition text-center">📍 Sukamara</a>
+        <a href="/blog/jual-asxone-138-sl-seruyan" class="hover-lift bg-green-50 hover:bg-green-100 rounded-xl px-4 py-3 text-green-800 font-medium transition text-center">📍 Seruyan</a>
+        <a href="/blog/beli-asxone-138-sl-pangkalan-banteng" class="hover-lift bg-green-50 hover:bg-green-100 rounded-xl px-4 py-3 text-green-800 font-medium transition text-center">🛒 Cara Beli</a>
+        <a href="/pengiriman" class="hover-lift bg-green-50 hover:bg-green-100 rounded-xl px-4 py-3 text-green-800 font-medium transition text-center">📦 Info Pengiriman →</a>
+      </div>
+
     </div>
   </section>
 </Layout>
