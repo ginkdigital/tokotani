@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+const posts = await getCollection('blog');
+const sortedPosts = posts.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
+---
+
+<Layout title="Artikel" description="Artikel dan informasi seputar produk pertanian, herbisida, dan tips bertani dari Toko Tani Green Al Fatih.">
+  <section class="py-16 px-4 max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold text-center mb-4">Artikel</h1>
+    <p class="text-center text-gray-500 mb-12">Informasi & panduan seputar produk pertanian</p>
+    
+    <div class="space-y-6">
+      {sortedPosts.map(post => (
+        <a href={`/blog/${post.id}`} class="block bg-white border rounded-xl p-6 hover:shadow-md transition">
+          <h2 class="text-xl font-bold mb-2 text-green-800">{post.data.title}</h2>
+          <p class="text-gray-500 text-sm">{post.data.description}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</Layout>
