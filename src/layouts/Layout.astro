@@ -1,0 +1,86 @@
+---
+// Layout utama TokoTani
+const { title, description } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} | Toko Tani Green Al Fatih</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />
+  <link rel="icon" href="/favicon.svg" />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta name="robots" content="index, follow" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Toko Tani Green Al Fatih",
+      "description": "Toko pertanian di Pangkalan Banteng, Kalimantan Tengah. Jual herbisida, fungisida, insektisida, pupuk, dan kebutuhan tani.",
+      "address": { "@type": "PostalAddress", "addressLocality": "Pangkalan Banteng", "addressRegion": "Kalimantan Tengah" },
+      "telephone": "+6285251988382",
+      "url": "https://tokotani.avathur.id"
+    }
+  </script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-green-800 text-white sticky top-0 z-50 shadow-lg">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-3">
+        <span class="text-2xl">🌾</span>
+        <div>
+          <div class="font-bold text-lg leading-tight">Toko Tani</div>
+          <div class="text-xs text-green-200 leading-tight">Green Al Fatih</div>
+        </div>
+      </a>
+      <nav class="hidden md:flex gap-6 text-sm font-medium">
+        <a href="/" class="hover:text-green-200 transition">Beranda</a>
+        <a href="/produk" class="hover:text-green-200 transition">Produk</a>
+        <a href="/pengiriman" class="hover:text-green-200 transition">Pengiriman</a>
+        <a href="/tentang" class="hover:text-green-200 transition">Tentang</a>
+        <a href="/kontak" class="hover:text-green-200 transition">Kontak</a>
+      </nav>
+      <a href="https://wa.me/6285251988382" class="bg-green-500 hover:bg-green-400 text-white px-4 py-2 rounded-full text-sm font-bold transition flex items-center gap-2">
+        💬 Order WA
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <slot />
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 py-12 mt-16">
+    <div class="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+      <div>
+        <div class="font-bold text-white text-lg mb-2">🌾 Toko Tani Green Al Fatih</div>
+        <p class="text-sm">Toko pertanian terpercaya di Kalimantan Tengah. Melayani petani sejak 2020.</p>
+      </div>
+      <div>
+        <div class="font-bold text-white mb-2">Link Cepat</div>
+        <div class="flex flex-col gap-1 text-sm">
+          <a href="/produk" class="hover:text-white transition">Produk</a>
+          <a href="/pengiriman" class="hover:text-white transition">Area Pengiriman</a>
+          <a href="/tentang" class="hover:text-white transition">Tentang Kami</a>
+          <a href="/kontak" class="hover:text-white transition">Kontak</a>
+        </div>
+      </div>
+      <div>
+        <div class="font-bold text-white mb-2">Hubungi Kami</div>
+        <p class="text-sm mb-1">📍 Pangkalan Banteng, Kalimantan Tengah</p>
+        <p class="text-sm mb-1">📞 <a href="https://wa.me/6285251988382" class="hover:text-green-300 transition">0852-5198-8382</a></p>
+        <p class="text-sm">📧 tokotanigreenalfatih@gmail.com</p>
+      </div>
+    </div>
+    <div class="text-center text-xs mt-8 pt-8 border-t border-gray-800 max-w-6xl mx-auto px-4">
+      <p>© 2026 Toko Tani Green Al Fatih. Website dikelola oleh <a href="https://avathur.id" class="text-green-400 hover:underline">WAKi</a> — Website Anti-Kiamat.</p>
+    </div>
+  </footer>
+</body>
+</html>

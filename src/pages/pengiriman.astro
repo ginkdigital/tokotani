@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+const title = "Area Pengiriman";
+const description = "Toko Tani Green Al Fatih melayani pengiriman herbisida, pupuk, dan produk pertanian ke seluruh Kalimantan: Kalteng, Kalbar, Kalsel, Kaltim, Kaltara.";
+---
+
+<Layout title={title} description={description}>
+  <section class="py-16 px-4 max-w-6xl mx-auto">
+    <h1 class="text-4xl font-bold text-center mb-4">Area Pengiriman</h1>
+    <p class="text-center text-gray-500 mb-12 max-w-2xl mx-auto">Kami kirim ke seluruh Kalimantan. Cek area pengiriman kami di bawah ini.</p>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+      <div class="bg-green-50 rounded-xl p-6 text-center hover:shadow-md transition">
+        <div class="text-3xl mb-2">📍</div>
+        <h3 class="font-bold text-lg">Kalimantan Tengah</h3>
+        <p class="text-sm text-gray-500 mt-1">Pangkalan Banteng, Pangkalan Bun, Sampit, Palangkaraya</p>
+      </div>
+      <div class="bg-green-50 rounded-xl p-6 text-center hover:shadow-md transition">
+        <div class="text-3xl mb-2">📍</div>
+        <h3 class="font-bold text-lg">Kalimantan Barat</h3>
+        <p class="text-sm text-gray-500 mt-1">Pontianak, Ketapang, Sintang, Singkawang</p>
+      </div>
+      <div class="bg-green-50 rounded-xl p-6 text-center hover:shadow-md transition">
+        <div class="text-3xl mb-2">📍</div>
+        <h3 class="font-bold text-lg">Kalimantan Selatan</h3>
+        <p class="text-sm text-gray-500 mt-1">Banjarmasin, Banjarbaru, Martapura, Tanah Laut</p>
+      </div>
+      <div class="bg-green-50 rounded-xl p-6 text-center hover:shadow-md transition">
+        <div class="text-3xl mb-2">📍</div>
+        <h3 class="font-bold text-lg">Kalimantan Timur</h3>
+        <p class="text-sm text-gray-500 mt-1">Samarinda, Balikpapan, Kutai, Bontang</p>
+      </div>
+      <div class="bg-green-50 rounded-xl p-6 text-center hover:shadow-md transition">
+        <div class="text-3xl mb-2">📍</div>
+        <h3 class="font-bold text-lg">Kalimantan Utara</h3>
+        <p class="text-sm text-gray-500 mt-1">Tarakan, Tanjung Selor, Malinau</p>
+      </div>
+      <div class="bg-green-50 rounded-xl p-6 text-center hover:shadow-md transition">
+        <div class="text-3xl mb-2">📍</div>
+        <h3 class="font-bold text-lg">Seruyan & Sukamara</h3>
+        <p class="text-sm text-gray-500 mt-1">Kuala Pembuang, Sukamara, dan sekitarnya</p>
+      </div>
+    </div>
+
+    <div class="bg-white border rounded-2xl p-8 text-center max-w-2xl mx-auto">
+      <h2 class="text-2xl font-bold mb-3">Butuh pengiriman ke luar Kalimantan?</h2>
+      <p class="text-gray-500 mb-4">Kami juga melayani pengiriman ke luar Kalimantan melalui jasa ekspedisi. Hubungi kami untuk info lebih lanjut.</p>
+      <a href="https://wa.me/6285251988382" class="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-medium transition">
+        💬 Chat untuk Info Pengiriman
+      </a>
+    </div>
+  </section>
+</Layout>
