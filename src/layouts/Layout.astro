@@ -38,6 +38,15 @@ const { title, description } = Astro.props;
     h1, h2, h3 { font-family: 'Fraunces', serif; font-weight: 600; }
     h1 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.1; }
     h2 { font-size: clamp(1.5rem, 3vw, 2.5rem); line-height: 1.2; }
+    /* Scroll reveal */
+    .reveal { opacity: 0; transform: translateY(24px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    /* Hover lift */
+    .hover-lift { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .hover-lift:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,0.08); }
+    /* Pulse CTA */
+    @keyframes pulse-cta { 0%,100% { box-shadow: 0 4px 16px rgba(22,163,74,0.3); } 50% { box-shadow: 0 8px 32px rgba(22,163,74,0.5); } }
+    .pulse-cta { animation: pulse-cta 2.5s ease-in-out infinite; }
   </style>
   <header class="bg-green-800 text-white sticky top-0 z-50 shadow-lg">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
@@ -80,11 +89,15 @@ const { title, description } = Astro.props;
       <a href="/kontak" class="block py-3 px-3 rounded-lg text-sm font-medium hover:bg-green-600 transition">📞 Kontak</a>
     </nav>
   </header>
-  <!-- Toggle script -->
+  <!-- Toggle + Scroll Reveal scripts -->
   <script>
     document.getElementById('menu-toggle').addEventListener('click', function() {
       document.getElementById('mobile-menu').classList.toggle('hidden');
     });
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
   </script>
 
   <main>
