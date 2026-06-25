@@ -118,19 +118,24 @@ const htmlContent = renderBody(post.body || '');
   margin-bottom: 0.75rem;
 }
 
-.article-ul, .article-ol { margin-bottom: 1.25rem; padding-left: 1.5rem; }
-.article-ul li, .article-ol li { margin-bottom: 0.5rem; }
-.article-ul { list-style: none; padding-left: 0; }
+.article-ul, .article-ol { margin-bottom: 1.5rem; padding-left: 0; }
+.article-ol { padding-left: 1.5rem; }
+.article-ul li, .article-ol li { margin-bottom: 0.75rem; padding: 0.5rem 0; }
+.article-ul { list-style: none; }
 .article-ul li {
-  padding-left: 1.75rem;
+  padding: 0.6rem 0 0.6rem 2rem;
   position: relative;
+  border-bottom: 1px solid #f0fdf4;
 }
+.article-ul li:last-child { border-bottom: none; }
 .article-ul li::before {
   content: "✓";
   position: absolute;
-  left: 0;
+  left: 0.25rem;
+  top: 0.6rem;
   color: #22c55e;
   font-weight: 700;
+  font-size: 0.9rem;
 }
 
 .article-strong { color: #15803d; font-weight: 600; }
@@ -145,9 +150,28 @@ const htmlContent = renderBody(post.body || '');
   color: #374151;
 }
 
-.article-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.9rem; }
-.article-table th { background: #f0fdf4; color: #14532d; padding: 0.75rem; text-align: left; font-weight: 600; }
-.article-table td { padding: 0.75rem; border-bottom: 1px solid #e2e8f0; }
+.article-table-wrapper { overflow-x: auto; margin: 1.5rem 0; border-radius: 12px; border: 1px solid #dcfce7; }
+.article-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.article-table thead { background: #f0fdf4; }
+.article-table th { 
+  color: #14532d; 
+  padding: 0.9rem 1rem; 
+  text-align: left; 
+  font-weight: 600; 
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-bottom: 2px solid #bbf7d0;
+}
+.article-table td { 
+  padding: 0.8rem 1rem; 
+  border-bottom: 1px solid #f0fdf4; 
+  color: #374151;
+}
+.article-table tr:last-child td { border-bottom: none; }
+.article-table tbody tr:hover { background: #f9fafb; }
+.article-table td:first-child { color: #6b7280; }
+.article-table td:last-child { color: #14532d; font-weight: 500; }
 
 hr { border: none; height: 1px; background: linear-gradient(90deg, transparent, #e2e8f0, transparent); margin: 2.5rem 0; }
 
