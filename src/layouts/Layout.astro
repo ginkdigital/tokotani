@@ -39,13 +39,14 @@ const { title, description } = Astro.props;
   </style>
   <header class="bg-green-800 text-white sticky top-0 z-50 shadow-lg">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
-      <a href="/" class="flex items-center gap-3">
+      <a href="/" class="flex items-center gap-3 shrink-0">
         <span class="text-2xl">🌾</span>
         <div>
           <div class="font-bold text-lg leading-tight">Toko Tani</div>
           <div class="text-xs text-green-200 leading-tight">Green Al Fatih</div>
         </div>
       </a>
+      <!-- Desktop nav -->
       <nav class="hidden md:flex gap-6 text-sm font-medium">
         <a href="/" class="hover:text-green-200 transition">Beranda</a>
         <a href="/produk" class="hover:text-green-200 transition">Produk</a>
@@ -54,11 +55,35 @@ const { title, description } = Astro.props;
         <a href="/blog" class="hover:text-green-200 transition">Artikel</a>
         <a href="/kontak" class="hover:text-green-200 transition">Kontak</a>
       </nav>
-      <a href="https://wa.me/6285251988382" class="bg-green-500 hover:bg-green-400 text-white px-4 py-2 rounded-full text-sm font-bold transition flex items-center gap-2">
-        💬 Order WA
+      <!-- WA button (always visible) -->
+      <a href="https://wa.me/6285251988382" class="bg-green-500 hover:bg-green-400 text-white px-3 py-2 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-bold transition flex items-center gap-1 md:gap-2 shrink-0">
+        💬 <span class="hidden sm:inline">Order WA</span>
       </a>
+      <!-- Hamburger (mobile only) -->
+      <button id="menu-toggle" class="md:hidden text-white p-2 -mr-2" aria-label="Menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
     </div>
+    <!-- Mobile nav (hidden by default) -->
+    <nav id="mobile-menu" class="hidden md:hidden bg-green-700 px-4 pb-4 pt-2 space-y-1">
+      <a href="/" class="block py-3 px-3 rounded-lg text-sm font-medium hover:bg-green-600 transition">🏠 Beranda</a>
+      <a href="/produk" class="block py-3 px-3 rounded-lg text-sm font-medium hover:bg-green-600 transition">📦 Produk</a>
+      <a href="/pengiriman" class="block py-3 px-3 rounded-lg text-sm font-medium hover:bg-green-600 transition">🚚 Pengiriman</a>
+      <a href="/tentang-kami" class="block py-3 px-3 rounded-lg text-sm font-medium hover:bg-green-600 transition">🌿 Tentang</a>
+      <a href="/blog" class="block py-3 px-3 rounded-lg text-sm font-medium hover:bg-green-600 transition">📝 Artikel</a>
+      <a href="/kontak" class="block py-3 px-3 rounded-lg text-sm font-medium hover:bg-green-600 transition">📞 Kontak</a>
+    </nav>
   </header>
+  <!-- Toggle script -->
+  <script>
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+  </script>
 
   <main>
     <slot />
