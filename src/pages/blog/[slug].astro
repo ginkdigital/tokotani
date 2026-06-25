@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
+import { marked } from 'marked';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -11,16 +12,29 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
+
+// Clean up WordPress artifacts from body
+let body = post.body || '';
+body = body.replace(/By\s*\n+\s*Gink Digital\s*\/\s*\n+\s*\w+ \d+, \d+/g, '');
+body = body.replace(/^\s*[\d\s]*$/gm, '');
+
+const htmlContent = marked.parse(body);
 ---
 
 <Layout title={post.data.title} description={post.data.description}>
-  <article class="py-16 px-4 max-w-3xl mx-auto">
-    <header class="mb-8">
-      <h1 class="text-3xl md:text-4xl font-bold mb-3">{post.data.title}</h1>
-      <p class="text-gray-500 text-lg">{post.data.description}</p>
+  <article class="py-8 sm:py-12 md:py-16 px-4 max-w-2xl mx-auto">
+    <header class="mb-8 text-center">
+      <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 leading-tight">{post.data.title}</h1>
+      <p class="text-gray-500 text-base sm:text-lg max-w-xl mx-auto">{post.data.description}</p>
     </header>
-    <div class="prose max-w-none whitespace-pre-line">
-      {post.body}
+    <div class="prose prose-sm sm:prose max-w-none text-gray-700 leading-relaxed">
+      <Fragment set:html={htmlContent} />
     </div>
+    <footer class="mt-12 pt-8 border-t text-center">
+      <p class="text-gray-500 text-sm mb-4">Butuh produk? Hubungi kami sekarang:</p>
+      <a href="https://wa.me/6285251988382" class="inline-block bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-bold transition text-sm pulse-cta">
+        💬 Chat WhatsApp
+      </a>
+    </footer>
   </article>
 </Layout>
