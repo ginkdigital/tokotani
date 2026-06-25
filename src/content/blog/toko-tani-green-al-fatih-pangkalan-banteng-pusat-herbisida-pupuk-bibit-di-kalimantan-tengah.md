@@ -10,7 +10,7 @@ image: "/images/jual-asxone-138-SL-Kalimantan-tengah-karang-mulya.webp"
 
 Anda sudah coba berbagai herbisida. Tapi gulma tetap tumbuh lagi. Lebih lebat. Lebih bandel.
 
-**Itu karena herbisida biasa cuma membakar daun  –  akarnya tetap hidup di dalam tanah.** Seminggu kemudian, gulma muncul lagi. Anda semprot lagi. Muncul lagi. Siklus yang bikin boros waktu, tenaga, dan biaya.
+**Itu karena herbisida biasa cuma membakar daun  ,  akarnya tetap hidup di dalam tanah.** Seminggu kemudian, gulma muncul lagi. Anda semprot lagi. Muncul lagi. Siklus yang bikin boros waktu, tenaga, dan biaya.
 
 **Masalahnya bukan di lahan Anda. Masalahnya di herbisida yang Anda pakai.**
 
@@ -18,11 +18,11 @@ Anda sudah coba berbagai herbisida. Tapi gulma tetap tumbuh lagi. Lebih lebat. L
 
 ## Kenapa Petani di Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng) Pilih Asxone 138 SL?
 
-Asxone 138 SL mengandung **paraquat diklorida 276 g/l**  –  konsentrasi tertinggi di kelas herbisida kontak. Begitu kena daun gulma, cairan langsung menyerap dan **membakar sel tanaman dari dalam** hanya dalam 2 jam.
+Asxone 138 SL mengandung **paraquat diklorida 276 g/l**  ,  konsentrasi tertinggi di kelas herbisida kontak. Begitu kena daun gulma, cairan langsung menyerap dan **membakar sel tanaman dari dalam** hanya dalam 2 jam.
 
 **Yang terjadi setelah semprot:**
 
-- **2 jam pertama:** Daun mulai menguning dari tepi  –  gulma yang tadinya hijau segar berubah kusam
+- **2 jam pertama:** Daun mulai menguning dari tepi  ,  gulma yang tadinya hijau segar berubah kusam
 - **6 jam:** Seluruh daun coklat kehitaman, batang mulai lemas
 - **24 jam:** Gulma mati total. Kering kerontang. Tinggal cabut atau biarkan hancur sendiri
 
@@ -30,52 +30,52 @@ Asxone 138 SL mengandung **paraquat diklorida 276 g/l**  –  konsentrasi tertin
 
 | Herbisida Biasa | Asxone 138 SL |
 |---|---|
-| Cuma bikin layu, besok segar lagi | Mati permanen  –  gak tumbuh lagi |
+| Cuma bikin layu, besok segar lagi | Mati permanen  ,  gak tumbuh lagi |
 | Cuma kena daun bagian luar | Menyerap sampai ke titik tumbuh |
-| Butuh 3–5 hari baru kelihatan efek | 2 jam udah kelihatan hasilnya |
-| Harus semprot ulang 2–3 kali | Sekali semprot, beres |
+| Butuh 3,5 hari baru kelihatan efek | 2 jam udah kelihatan hasilnya |
+| Harus semprot ulang 2,3 kali | Sekali semprot, beres |
 
 ---
 
 ## Takaran & Kebutuhan per Hektar
 
-**Campuran standar:** 2–3 ml Asxone per 1 liter air.
+**Campuran standar:** 2,3 ml Asxone per 1 liter air.
 
-- Lahan 1 hektar gulma sedang → butuh ±250–500 ml
-- Satu botol 1 liter → cukup untuk 2–4 hektar
+- Lahan 1 hektar gulma sedang → butuh ±250,500 ml
+- Satu botol 1 liter → cukup untuk 2,4 hektar
 - Harga per hektar jauh lebih hemat dibanding semprot ulang 3x pakai herbisida murah
 
 **Kesaksian petani:** *"Dulu saya semprot 3 kali masih ada gulma. Sekarang sekali semprot, seminggu kemudian lahan masih bersih."*
 
 ---
 
-## Cara Pakai yang Benar  –  Biar Gak Mubazir
+## Cara Pakai yang Benar  ,  Biar Gak Mubazir
 
-1. **Campur 2–3 ml per 1 liter air**  –  jangan lebih, jangan kurang
-2. **Semprot pagi (jam 6–9) atau sore (jam 4–6)**  –  jangan siang terik, cairan menguap sebelum menyerap
-3. **Pakai nozzle datar**  –  semprot merata ke seluruh permukaan daun gulma
-4. **Jangan semprot saat hujan atau mau hujan**  –  herbisida akan tercuci
-5. **Pakai masker & sarung tangan**  –  ini herbisida kuat, lindungi diri Anda
+1. **Campur 2,3 ml per 1 liter air**  ,  jangan lebih, jangan kurang
+2. **Semprot pagi (jam 6,9) atau sore (jam 4,6)**  ,  jangan siang terik, cairan menguap sebelum menyerap
+3. **Pakai nozzle datar**  ,  semprot merata ke seluruh permukaan daun gulma
+4. **Jangan semprot saat hujan atau mau hujan**  ,  herbisida akan tercuci
+5. **Pakai masker & sarung tangan**  ,  ini herbisida kuat, lindungi diri Anda
 
 ---
 
-## Order Asxone 138 SL  –  Pengiriman ke Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng)
+## Order Asxone 138 SL  ,  Pengiriman ke Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng)
 
-Kami di **Toko Tani Green Al Fatih  –  Pangkalan Banteng, Kalimantan Tengah** siap kirim ke Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng) dan seluruh Kalimantan.
+Kami di **Toko Tani Green Al Fatih  ,  Pangkalan Banteng, Kalimantan Tengah** siap kirim ke Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng) dan seluruh Kalimantan.
 
 **Kenapa order dari kami:**
 
-- ✅ **Produk asli**  –  ber-seal hologram, bisa diverifikasi ke produsen
-- ✅ **Harga distributor**  –  lebih murah dari toko online
-- ✅ **Stok ready**  –  gak perlu inden atau nunggu
-- ✅ **Konsultasi gratis**  –  bingung takaran? Tanya langsung
-- ✅ **Kirim seluruh Kalimantan**  –  via ekspedisi terpercaya
+- ✅ **Produk asli**  ,  ber-seal hologram, bisa diverifikasi ke produsen
+- ✅ **Harga distributor**  ,  lebih murah dari toko online
+- ✅ **Stok ready**  ,  gak perlu inden atau nunggu
+- ✅ **Konsultasi gratis**  ,  bingung takaran? Tanya langsung
+- ✅ **Kirim seluruh Kalimantan**  ,  via ekspedisi terpercaya
 
-**[📍 Lihat Google Maps](https://maps.app.goo.gl/AGGdMgXS8a7JY6Qb9)**  –  Toko kami di Pangkalan Banteng
+**[📍 Lihat Google Maps](https://maps.app.goo.gl/AGGdMgXS8a7JY6Qb9)**  ,  Toko kami di Pangkalan Banteng
 
 ---
 
-## Cara Order  –  Cepat & Gampang
+## Cara Order  ,  Cepat & Gampang
 
 **Via WhatsApp:**
 - [Admin Al Fatih](https://s.id/adminAlfatih)
@@ -83,22 +83,22 @@ Kami di **Toko Tani Green Al Fatih  –  Pangkalan Banteng, Kalimantan Tengah** 
 
 **Atau langsung:** 📞 **0852-5198-8382**
 
-Kirim pesan: *"Mau pesan Asxone 138 SL. Daerah [Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng)]. Berapa botol? [sebutkan jumlah]."*  –  kami balas dengan harga + ongkir dalam hitungan menit.
+Kirim pesan: *"Mau pesan Asxone 138 SL. Daerah [Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng)]. Berapa botol? [sebutkan jumlah]."*  ,  kami balas dengan harga + ongkir dalam hitungan menit.
 
 ---
 
 ## FAQ
 
 **Q: Aman buat tanaman utama?**  
-A: Aman. Asxone adalah herbisida kontak  –  hanya bereaksi pada jaringan yang kena semprot. Tidak diserap akar tanaman utama. Begitu kena tanah, langsung terurai.
+A: Aman. Asxone adalah herbisida kontak  ,  hanya bereaksi pada jaringan yang kena semprot. Tidak diserap akar tanaman utama. Begitu kena tanah, langsung terurai.
 
 **Q: Kirim ke Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng)?**  
 A: Ya. Kami rutin kirim ke seluruh Kalimantan via ekspedisi terpercaya.
 
 **Q: Ada harga grosir?**  
-A: Ada. Hubungi kami untuk harga partai  –  makin banyak, makin murah per botol.
+A: Ada. Hubungi kami untuk harga partai  ,  makin banyak, makin murah per botol.
 
 ---
 
-**Gulma bandel gak akan hilang sendiri. Satu semprotan Asxone 138 SL  –  lahan bersih, panen maksimal.**  
+**Gulma bandel gak akan hilang sendiri. Satu semprotan Asxone 138 SL  ,  lahan bersih, panen maksimal.**  
 📞 **0852-5198-8382**
