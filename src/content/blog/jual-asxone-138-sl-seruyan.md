@@ -5,40 +5,99 @@ pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
 ---
 
-Mencari Asxone 138 SL di Seruyan? Temukan Solusi Pengendali Gulma untuk Pertanian Anda
+## Butuh Asxone 138 SL di Seruyan (Kuala Pembuang) dan sekitarnya?
 
-Asxone 138 SL adalah herbisida yang membantu mengendalikan gulma pada tanaman perkebunan dan pertanian. Di Seruyan, produk ini banyak dicari petani untuk menjaga produktivitas. Toko Tani Green Al Fatih siap membantu Anda mendapatkan Asxone 138 SL dengan informasi penggunaan yang tepat, memastikan lahan Anda bebas gangguan gulma.
+Anda sudah coba berbagai herbisida. Tapi gulma tetap tumbuh lagi. Lebih lebat. Lebih bandel.
 
-Asxone 138 SL adalah herbisida sistemik purna tumbuh yang dirancang untuk mengendalikan berbagai jenis gulma pada lahan pertanian. Bagi para petani di Seruyan, mendapatkan produk ini seringkali menjadi langkah awal untuk memastikan kebun atau sawah mereka terawat dari gangguan gulma yang dapat mengurangi hasil panen. Toko Tani Green Al Fatih hadir untuk membantu Anda yang ingin jual Asxone 138 SL Seruyan dengan kualitas terjamin dan layanan informatif.
+**Itu karena herbisida biasa cuma membakar daun — akarnya tetap hidup di dalam tanah.** Seminggu kemudian, gulma muncul lagi. Anda semprot lagi. Muncul lagi. Siklus yang bikin boros waktu, tenaga, dan biaya.
 
-Herbisida ini bekerja dengan cara diserap oleh daun gulma kemudian diedarkan ke seluruh jaringan tanaman, mengganggu pertumbuhan, dan akhirnya menyebabkan gulma mati. Berdasarkan pengalaman kami, penggunaan Asxone 138 SL seringkali menjadi pilihan petani kelapa sawit, karet, atau bahkan padi di wilayah tropis seperti Seruyan karena efektivitasnya yang terbukti. Efisiensi penggunaan produk ini sangat membantu petani menghemat waktu dan tenaga dalam menjaga kebersihan lahan.
-
-Kisaran harga Asxone 138 SL di pasaran lokal dapat bervariasi, umumnya mulai dari Rp 85.000 hingga Rp 130.000 per liter, tergantung dari kemasan dan ketersediaan di toko. Harga ini merupakan perkiraan agar Anda memiliki gambaran awal dalam perencanaan pembelian. Untuk harga pasti dan penawaran terbaik, Anda bisa langsung bertanya kepada tim kami.
-
-📑 Daftar Isi
-
-Mengapa Asxone 138 SL Penting untuk Petani di Seruyan?
-
-Cara Penggunaan Asxone 138 SL yang Benar
-
-Tabel Perbandingan Manfaat Asxone 138 SL dengan Metode Manual
-
-Dimana Mendapatkan Asxone 138 SL Terpercaya di Seruyan?
-
-FAQ
-
-Mengapa Asxone 138 SL Penting untuk Petani di Seruyan?
-
-Seruyan, dengan sebagian besar wilayahnya merupakan lahan pertanian dan perkebunan, menghadapi tantangan serius dari pertumbuhan gulma yang cepat. Gulma bersaing dengan tanaman utama dalam hal nutrisi, air, dan cahaya matahari, sehingga berpotensi menurunkan kualitas dan kuantitas panen. Asxone 138 SL memberikan beberapa keuntungan utama bagi petani:
-
-1. Pengendalian Gulma yang Spektrum Luas
-
-Asxone 138 SL efektif terhadap berbagai jenis gulma, baik gulma daun lebar maupun gulma golongan rumput-rumputan. Kemampuan ini berarti petani tidak perlu menggunakan berbagai jenis herbisida terpisah untuk masalah gulma yang berbeda, menjadikannya pilihan praktis. Kami sering menemukan kasus di mana petani di Seruyan kesulitan mengidentifikasi semua jenis gulma, dan Asxone 138 SL menjadi solusi umum yang ampuh.
-
-2. Efisiensi Waktu dan Tenaga
-
-Metode pengendalian gulma secara manual membutuhkan banyak waktu dan ten
+**Masalahnya bukan di lahan Anda. Masalahnya di herbisida yang Anda pakai.**
 
 ---
 
-**Butuh Asxone 138 SL? Hubungi kami via WhatsApp: [0852-5198-8382](https://wa.me/6285251988382)**
+## Kenapa Petani di Seruyan (Kuala Pembuang) dan sekitarnya Pilih Asxone 138 SL?
+
+Asxone 138 SL mengandung **paraquat diklorida 276 g/l** — konsentrasi tertinggi di kelas herbisida kontak. Begitu kena daun gulma, cairan langsung menyerap dan **membakar sel tanaman dari dalam** hanya dalam 2 jam.
+
+**Yang terjadi setelah semprot:**
+
+- **2 jam pertama:** Daun mulai menguning dari tepi — gulma yang tadinya hijau segar berubah kusam
+- **6 jam:** Seluruh daun coklat kehitaman, batang mulai lemas
+- **24 jam:** Gulma mati total. Kering kerontang. Tinggal cabut atau biarkan hancur sendiri
+
+**Kenapa lebih unggul dari herbisida biasa:**
+
+| Herbisida Biasa | Asxone 138 SL |
+|---|---|
+| Cuma bikin layu, besok segar lagi | Mati permanen — gak tumbuh lagi |
+| Cuma kena daun bagian luar | Menyerap sampai ke titik tumbuh |
+| Butuh 3–5 hari baru kelihatan efek | 2 jam udah kelihatan hasilnya |
+| Harus semprot ulang 2–3 kali | Sekali semprot, beres |
+
+---
+
+## Takaran & Kebutuhan per Hektar
+
+**Campuran standar:** 2–3 ml Asxone per 1 liter air.
+
+- Lahan 1 hektar gulma sedang → butuh ±250–500 ml
+- Satu botol 1 liter → cukup untuk 2–4 hektar
+- Harga per hektar jauh lebih hemat dibanding semprot ulang 3x pakai herbisida murah
+
+**Kesaksian petani:** *"Dulu saya semprot 3 kali masih ada gulma. Sekarang sekali semprot, seminggu kemudian lahan masih bersih."*
+
+---
+
+## Cara Pakai yang Benar — Biar Gak Mubazir
+
+1. **Campur 2–3 ml per 1 liter air** — jangan lebih, jangan kurang
+2. **Semprot pagi (jam 6–9) atau sore (jam 4–6)** — jangan siang terik, cairan menguap sebelum menyerap
+3. **Pakai nozzle datar** — semprot merata ke seluruh permukaan daun gulma
+4. **Jangan semprot saat hujan atau mau hujan** — herbisida akan tercuci
+5. **Pakai masker & sarung tangan** — ini herbisida kuat, lindungi diri Anda
+
+---
+
+## Order Asxone 138 SL — Pengiriman ke Seruyan (Kuala Pembuang) dan sekitarnya
+
+Kami di **Toko Tani Green Al Fatih — Pangkalan Banteng, Kalimantan Tengah** siap kirim ke Seruyan (Kuala Pembuang) dan sekitarnya dan seluruh Kalimantan.
+
+**Kenapa order dari kami:**
+
+- ✅ **Produk asli** — ber-seal hologram, bisa diverifikasi ke produsen
+- ✅ **Harga distributor** — lebih murah dari toko online
+- ✅ **Stok ready** — gak perlu inden atau nunggu
+- ✅ **Konsultasi gratis** — bingung takaran? Tanya langsung
+- ✅ **Kirim seluruh Kalimantan** — via ekspedisi terpercaya
+
+**[📍 Lihat Google Maps](https://maps.app.goo.gl/AGGdMgXS8a7JY6Qb9)** — Toko kami di Pangkalan Banteng
+
+---
+
+## Cara Order — Cepat & Gampang
+
+**Via WhatsApp:**
+- [Admin Al Fatih](https://s.id/adminAlfatih)
+- [Admin Ummu Ayub](https://s.id/adminUmmuAyub)
+
+**Atau langsung:** 📞 **0852-5198-8382**
+
+Kirim pesan: *"Mau pesan Asxone 138 SL. Daerah [Seruyan (Kuala Pembuang) dan sekitarnya]. Berapa botol? [sebutkan jumlah]."* — kami balas dengan harga + ongkir dalam hitungan menit.
+
+---
+
+## FAQ
+
+**Q: Aman buat tanaman utama?**  
+A: Aman. Asxone adalah herbisida kontak — hanya bereaksi pada jaringan yang kena semprot. Tidak diserap akar tanaman utama. Begitu kena tanah, langsung terurai.
+
+**Q: Kirim ke Seruyan (Kuala Pembuang) dan sekitarnya?**  
+A: Ya. Kami rutin kirim ke seluruh Kalimantan via ekspedisi terpercaya.
+
+**Q: Ada harga grosir?**  
+A: Ada. Hubungi kami untuk harga partai — makin banyak, makin murah per botol.
+
+---
+
+**Gulma bandel gak akan hilang sendiri. Satu semprotan Asxone 138 SL — lahan bersih, panen maksimal.**  
+📞 **0852-5198-8382**

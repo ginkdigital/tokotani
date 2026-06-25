@@ -5,125 +5,99 @@ pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
 ---
 
-Toko Tani Terdekat di Kalimantan Tengah
+## Butuh Asxone 138 SL di Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng)?
 
-Toko Tani Terdekat di Kalimantan Tengah
- – Green Al Fatih, Solusi Pertanian Anda 🌾
+Anda sudah coba berbagai herbisida. Tapi gulma tetap tumbuh lagi. Lebih lebat. Lebih bandel.
 
-Apakah Anda sedang mencari 
+**Itu karena herbisida biasa cuma membakar daun — akarnya tetap hidup di dalam tanah.** Seminggu kemudian, gulma muncul lagi. Anda semprot lagi. Muncul lagi. Siklus yang bikin boros waktu, tenaga, dan biaya.
 
-toko tani terdekat di Kalimantan Tengah
-
- yang menjual pupuk, herbisida, insektisida, dan bibit berkualitas?
-
-Jangan khawatir, kini petani di wilayah 
-Pangkalan Bun, Sampit, Lamandau, dan sekitarnya
- bisa mendapatkan semua kebutuhan pertanian di satu tempat —
-
-Toko Tani Green Al Fatih
-
-.
-
-Toko ini menjadi salah satu pusat penyedia sarana pertanian terlengkap di Kalimantan Tengah, dengan pelayanan ramah, harga bersahabat, dan stok produk yang selalu tersedia.
-
-Baik Anda seorang petani padi, kelapa sawit, hortikultura, atau sayuran, Green Al Fatih siap membantu Anda dari hulu ke hilir. 🌿
-
-📍 Lokasi Strategis Toko Tani Terdekat di Kalimantan Tengah
-
-Toko Tani Green Al Fatih
- berlokasi di:
-
-Jl. Jenderal Sudirman, Karangmulya, Kec. Pangkalan Banteng, Kabupaten Kotawaringin Barat, Kalimantan Tengah 74183
-
-🗺️ 
-Lihat Lokasi di Google Maps
-
-Dengan lokasi yang mudah dijangkau, toko ini melayani pengiriman dan kebutuhan pertanian untuk daerah:
-
-Pangkalan Banteng
-
-Pangkalan Bun
-
-Sampit
-
-Kotawaringin Barat
-
-Lamandau
-
-Seruyan
-
-Kabupaten sekitar Kalimantan Tengah
-
-Jadi, di mana pun Anda berada di Kalimantan Tengah, 
-Toko Tani Green Al Fatih
- bisa menjadi pilihan terbaik untuk mendapatkan produk pertanian secara cepat dan terpercaya.
-
-🛒 Produk Lengkap untuk Semua Jenis Tanaman
-
-Kami menyediakan berbagai macam produk pertanian dari merek ternama dan telah digunakan oleh ribuan petani di seluruh Indonesia.
-
-Berikut beberapa kategori produk unggulan kami:
-
-🌾 
-Pupuk:
- Pupuk NPK, KCL, Urea, Organik Cair, dan Pupuk Daun
-
-🌿 
-Herbisida:
- Asxone, Gramoxone, Roundup, dan produk pembersih gulma lainnya
-
-🍅 
-Fungisida:
- Dithane, Amistartop, dan bahan pengendali jamur
-
-🐛 
-Insektisida:
- Regent, Decis, dan berbagai formula pembasmi hama
-
-🌱 
-Benih & Bibit Unggul:
- Padi, jagung, sayur, cabai, dan tanaman hortikultura
-
-🧰 
-Alat Pertanian:
- Sprayer, selang, semprotan otomatis, dan perlengkapan lahan
-
-Semua produk dijamin asli, bergaransi resmi, dan telah teruji di lapangan oleh para petani Kalimantan Tengah.
-
-📞 Kontak & Layanan Konsultasi Petani
-
-Untuk mempermudah Anda, kami menyediakan layanan konsultasi langsung dengan admin toko melalui WhatsApp.
-
-Anda bisa bertanya tentang dosis pupuk, cara penggunaan herbisida, atau perbandingan produk. Caranya cukup 
-hubungi kami
- ke nomor berikut
-
-📲 
-Admin Al Fatih:
- 
-0852-5198-8382
-
-📲 
-Admin Ummu Ayub:
- 
-+62 856-5141-9879
-
-Kami siap membantu setiap hari Senin – Sabtu pukul 
-06.00 – 17.00 WIB
-.
-
-Di luar jam kerja, Anda tetap bisa meninggalkan pesan, dan admin kami akan segera membalas di jam operasional berikutnya.
-
-💡 Kelebihan Toko Tani Green Al Fatih Dibanding Toko Lain
-
-✅ Produk selalu tersedia dan berkualitas
-
-✅ Harga kompetitif dan bisa grosir
-
-✅ Pengiriman cepat ke seluruh Kalimantan Tengah
-
-✅ Layanan konsult
+**Masalahnya bukan di lahan Anda. Masalahnya di herbisida yang Anda pakai.**
 
 ---
 
-**Butuh Asxone 138 SL? Hubungi kami via WhatsApp: [0852-5198-8382](https://wa.me/6285251988382)**
+## Kenapa Petani di Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng) Pilih Asxone 138 SL?
+
+Asxone 138 SL mengandung **paraquat diklorida 276 g/l** — konsentrasi tertinggi di kelas herbisida kontak. Begitu kena daun gulma, cairan langsung menyerap dan **membakar sel tanaman dari dalam** hanya dalam 2 jam.
+
+**Yang terjadi setelah semprot:**
+
+- **2 jam pertama:** Daun mulai menguning dari tepi — gulma yang tadinya hijau segar berubah kusam
+- **6 jam:** Seluruh daun coklat kehitaman, batang mulai lemas
+- **24 jam:** Gulma mati total. Kering kerontang. Tinggal cabut atau biarkan hancur sendiri
+
+**Kenapa lebih unggul dari herbisida biasa:**
+
+| Herbisida Biasa | Asxone 138 SL |
+|---|---|
+| Cuma bikin layu, besok segar lagi | Mati permanen — gak tumbuh lagi |
+| Cuma kena daun bagian luar | Menyerap sampai ke titik tumbuh |
+| Butuh 3–5 hari baru kelihatan efek | 2 jam udah kelihatan hasilnya |
+| Harus semprot ulang 2–3 kali | Sekali semprot, beres |
+
+---
+
+## Takaran & Kebutuhan per Hektar
+
+**Campuran standar:** 2–3 ml Asxone per 1 liter air.
+
+- Lahan 1 hektar gulma sedang → butuh ±250–500 ml
+- Satu botol 1 liter → cukup untuk 2–4 hektar
+- Harga per hektar jauh lebih hemat dibanding semprot ulang 3x pakai herbisida murah
+
+**Kesaksian petani:** *"Dulu saya semprot 3 kali masih ada gulma. Sekarang sekali semprot, seminggu kemudian lahan masih bersih."*
+
+---
+
+## Cara Pakai yang Benar — Biar Gak Mubazir
+
+1. **Campur 2–3 ml per 1 liter air** — jangan lebih, jangan kurang
+2. **Semprot pagi (jam 6–9) atau sore (jam 4–6)** — jangan siang terik, cairan menguap sebelum menyerap
+3. **Pakai nozzle datar** — semprot merata ke seluruh permukaan daun gulma
+4. **Jangan semprot saat hujan atau mau hujan** — herbisida akan tercuci
+5. **Pakai masker & sarung tangan** — ini herbisida kuat, lindungi diri Anda
+
+---
+
+## Order Asxone 138 SL — Pengiriman ke Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng)
+
+Kami di **Toko Tani Green Al Fatih — Pangkalan Banteng, Kalimantan Tengah** siap kirim ke Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng) dan seluruh Kalimantan.
+
+**Kenapa order dari kami:**
+
+- ✅ **Produk asli** — ber-seal hologram, bisa diverifikasi ke produsen
+- ✅ **Harga distributor** — lebih murah dari toko online
+- ✅ **Stok ready** — gak perlu inden atau nunggu
+- ✅ **Konsultasi gratis** — bingung takaran? Tanya langsung
+- ✅ **Kirim seluruh Kalimantan** — via ekspedisi terpercaya
+
+**[📍 Lihat Google Maps](https://maps.app.goo.gl/AGGdMgXS8a7JY6Qb9)** — Toko kami di Pangkalan Banteng
+
+---
+
+## Cara Order — Cepat & Gampang
+
+**Via WhatsApp:**
+- [Admin Al Fatih](https://s.id/adminAlfatih)
+- [Admin Ummu Ayub](https://s.id/adminUmmuAyub)
+
+**Atau langsung:** 📞 **0852-5198-8382**
+
+Kirim pesan: *"Mau pesan Asxone 138 SL. Daerah [Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng)]. Berapa botol? [sebutkan jumlah]."* — kami balas dengan harga + ongkir dalam hitungan menit.
+
+---
+
+## FAQ
+
+**Q: Aman buat tanaman utama?**  
+A: Aman. Asxone adalah herbisida kontak — hanya bereaksi pada jaringan yang kena semprot. Tidak diserap akar tanaman utama. Begitu kena tanah, langsung terurai.
+
+**Q: Kirim ke Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng)?**  
+A: Ya. Kami rutin kirim ke seluruh Kalimantan via ekspedisi terpercaya.
+
+**Q: Ada harga grosir?**  
+A: Ada. Hubungi kami untuk harga partai — makin banyak, makin murah per botol.
+
+---
+
+**Gulma bandel gak akan hilang sendiri. Satu semprotan Asxone 138 SL — lahan bersih, panen maksimal.**  
+📞 **0852-5198-8382**
