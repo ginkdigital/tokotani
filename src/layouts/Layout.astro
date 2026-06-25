@@ -12,6 +12,9 @@ const { title, description } = Astro.props;
   <meta name="description" content={description} />
   <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />
   <link rel="icon" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
@@ -28,8 +31,12 @@ const { title, description } = Astro.props;
     }
   </script>
 </head>
-<body class="bg-white text-gray-800 font-sans">
-  <!-- Header -->
+<body class="bg-white text-gray-800" style="font-family: 'Source Sans 3', sans-serif">
+  <style is:global>
+    h1, h2, h3 { font-family: 'Fraunces', serif; font-weight: 600; }
+    h1 { font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.1; }
+    h2 { font-size: clamp(1.5rem, 3vw, 2.5rem); line-height: 1.2; }
+  </style>
   <header class="bg-green-800 text-white sticky top-0 z-50 shadow-lg">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
       <a href="/" class="flex items-center gap-3">
