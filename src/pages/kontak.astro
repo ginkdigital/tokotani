@@ -1,60 +1,69 @@
 ---
 import Layout from '../layouts/Layout.astro';
-const title = "Kontak";
-const description = "Hubungi Toko Tani Green Al Fatih Pangkalan Banteng via WhatsApp 0852-5198-8382 untuk info harga dan pemesanan produk pertanian.";
+const title = "Hubungi Kami - Toko Tani Kalteng Green Al Fatih";
+const description = "Kontak Toko Tani Green Al Fatih Pangkalan Banteng. Hubungi via WhatsApp 0852-5198-8382 untuk info harga dan pemesanan produk pertanian.";
 ---
 
 <Layout title={title} description={description}>
-  <section class="py-16 px-4 max-w-4xl mx-auto">
-    <h1 class="text-4xl font-bold text-center mb-4">Hubungi Kami</h1>
-    <p class="text-center text-gray-500 mb-12">Ada pertanyaan? Ingin pesan? Kami siap membantu.</p>
+  <section class="py-16 px-4 max-w-3xl mx-auto">
+    <h1 class="text-3xl md:text-4xl font-bold mb-4 text-center">Hubungi Kami</h1>
+    <p class="text-center text-gray-500 mb-12 text-lg">Kontak Toko Tani Green Al Fatih — Pangkalan Banteng</p>
 
-    <div class="grid md:grid-cols-2 gap-8 mb-12">
+    <div class="prose max-w-none text-gray-700 leading-relaxed">
+      <p class="text-center text-lg">Selamat datang di halaman Kontak Toko Tani Green Al Fatih. Kami siap melayani kebutuhan pertanian Anda. Silakan hubungi kami melalui kontak di bawah ini.</p>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6 mt-8 mb-12">
       <div class="bg-white rounded-2xl p-8 shadow-sm text-center">
         <div class="text-5xl mb-4">💬</div>
         <h2 class="text-xl font-bold mb-2">WhatsApp</h2>
-        <p class="text-gray-500 mb-4">Cara tercepat untuk order dan konsultasi</p>
-        <a href="https://wa.me/6285251988382" class="inline-block bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-bold transition text-lg">
-          0852-5198-8382
-        </a>
+        <p class="text-gray-500 mb-4 text-sm">Cara tercepat untuk order dan konsultasi</p>
+        <a href="https://wa.me/6285251988382" class="inline-block bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-bold transition text-lg">0852-5198-8382</a>
         <p class="text-xs text-gray-400 mt-3">Balasan cepat, maksimal 2 jam</p>
       </div>
       <div class="bg-white rounded-2xl p-8 shadow-sm text-center">
         <div class="text-5xl mb-4">📞</div>
         <h2 class="text-xl font-bold mb-2">Telepon</h2>
-        <p class="text-gray-500 mb-4">Untuk pertanyaan mendesak</p>
+        <p class="text-gray-500 mb-4 text-sm">Untuk pertanyaan mendesak</p>
         <a href="tel:+6285251988382" class="text-2xl font-bold text-green-700 hover:text-green-800 transition">0852-5198-8382</a>
         <p class="text-xs text-gray-400 mt-3">Senin-Sabtu, 08.00-17.00 WIB</p>
       </div>
     </div>
 
-    <div class="bg-gray-50 rounded-2xl p-8 mb-8">
-      <h2 class="text-2xl font-bold mb-6 text-center">Lokasi Kami</h2>
-      <div class="text-center">
-        <p class="text-lg font-medium mb-2">📍 Pangkalan Banteng, Kalimantan Tengah</p>
-        <p class="text-gray-500">Toko fisik kami berada di Pangkalan Banteng, silakan hubungi via WhatsApp untuk alamat lengkap dan janji temu.</p>
+    <div class="grid md:grid-cols-2 gap-6 mb-8">
+      <div class="bg-white rounded-xl p-6 shadow-sm text-center">
+        <div class="text-3xl mb-2">📍</div>
+        <h3 class="font-bold mb-1">Lokasi</h3>
+        <p class="text-sm text-gray-500 mb-3">Pangkalan Banteng, Kalimantan Tengah</p>
+        <a href="https://maps.app.goo.gl/AGGdMgXS8a7JY6Qb9" target="_blank" class="inline-block bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-full text-sm font-medium transition">📍 Buka Google Maps</a>
       </div>
-    </div>
-
-    <div class="grid md:grid-cols-2 gap-8">
-      <div class="bg-white rounded-2xl p-6 shadow-sm text-center">
+      <div class="bg-white rounded-xl p-6 shadow-sm text-center">
         <div class="text-3xl mb-2">📧</div>
         <h3 class="font-bold mb-1">Email</h3>
         <p class="text-sm text-gray-500">tokotanigreenalfatih@gmail.com</p>
       </div>
-      <div class="bg-white rounded-2xl p-6 shadow-sm text-center">
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-6 mb-12">
+      <div class="bg-white rounded-xl p-6 shadow-sm text-center">
         <div class="text-3xl mb-2">🕐</div>
         <h3 class="font-bold mb-1">Jam Operasional</h3>
         <p class="text-sm text-gray-500">Senin - Sabtu<br>08.00 - 17.00 WIB</p>
       </div>
+      <div class="bg-white rounded-xl p-6 shadow-sm text-center">
+        <div class="text-3xl mb-2">🚚</div>
+        <h3 class="font-bold mb-1">Area Pengiriman</h3>
+        <p class="text-sm text-gray-500">Seluruh Kalimantan<br>+ Luar Kalimantan via ekspedisi</p>
+      </div>
     </div>
 
-    <div class="mt-12 bg-green-600 text-white rounded-2xl p-8 text-center">
+    <div class="bg-green-600 text-white rounded-2xl p-8 text-center">
       <h2 class="text-2xl font-bold mb-3">Order Sekarang!</h2>
       <p class="text-green-100 mb-6">Chat WhatsApp kami sekarang — gratis konsultasi, bebas tanya harga.</p>
-      <a href="https://wa.me/6285251988382" class="inline-block bg-white text-green-800 px-10 py-4 rounded-full text-lg font-bold hover:bg-green-50 transition shadow-lg">
-        💬 Chat WhatsApp
-      </a>
+      <div class="flex gap-3 justify-center flex-wrap">
+        <a href="https://s.id/adminAlfatih" class="bg-white text-green-800 px-6 py-3 rounded-full font-bold hover:bg-green-50 transition">💬 Admin Al Fatih</a>
+        <a href="https://s.id/adminUmmuAyub" class="bg-white text-green-800 px-6 py-3 rounded-full font-bold hover:bg-green-50 transition">💬 Admin Ummu Ayub</a>
+      </div>
     </div>
   </section>
 </Layout>
