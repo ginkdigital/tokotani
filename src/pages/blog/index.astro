@@ -7,17 +7,41 @@ const sortedPosts = posts.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDa
 ---
 
 <Layout title="Artikel" description="Artikel dan informasi seputar produk pertanian, herbisida, dan tips bertani dari Toko Tani Green Al Fatih.">
-  <section class="py-16 px-4 max-w-4xl mx-auto">
-    <h1 class="text-4xl font-bold text-center mb-4">Artikel</h1>
-    <p class="text-center text-gray-500 mb-12">Informasi & panduan seputar produk pertanian</p>
-    
-    <div class="space-y-6">
-      {sortedPosts.map(post => (
-        <a href={`/blog/${post.id}`} class="block bg-white border rounded-xl p-6 hover:shadow-md transition">
-          <h2 class="text-xl font-bold mb-2 text-green-800">{post.data.title}</h2>
-          <p class="text-gray-500 text-sm">{post.data.description}</p>
-        </a>
-      ))}
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-green-800 via-green-700 to-emerald-800 text-white py-12 sm:py-16 md:py-20 px-4 text-center reveal">
+    <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">Artikel & Panduan</h1>
+    <p class="text-green-100 text-base sm:text-lg max-w-xl mx-auto">Informasi lengkap seputar produk pertanian, cara pakai, dan tips untuk petani Kalimantan.</p>
+  </section>
+
+  <!-- Article Grid -->
+  <section class="py-10 sm:py-16 px-4 max-w-5xl mx-auto">
+    {sortedPosts.length === 0 ? (
+      <p class="text-center text-gray-500 py-12">Belum ada artikel.</p>
+    ) : (
+      <div class="grid sm:grid-cols-2 gap-5 sm:gap-6">
+        {sortedPosts.map((post, i) => (
+          <a href={`/blog/${post.id}`} class="group block bg-white border rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 hover:-translate-y-1 reveal">
+            <div class="p-5 sm:p-6">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="text-xs font-medium bg-green-100 text-green-800 px-2.5 py-1 rounded-full">📝 Artikel</span>
+                <span class="text-xs text-gray-400">{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+              </div>
+              <h2 class="text-lg sm:text-xl font-bold mb-2 text-gray-800 group-hover:text-green-700 transition-colors leading-snug">{post.data.title}</h2>
+              <p class="text-gray-500 text-sm leading-relaxed line-clamp-2">{post.data.description}</p>
+              <div class="mt-4 flex items-center text-green-600 font-medium text-sm group-hover:gap-2 transition-all">
+                Baca selengkapnya <span class="ml-1 group-hover:ml-2 transition-all">→</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    )}
+
+    <!-- CTA -->
+    <div class="mt-12 text-center bg-green-50 rounded-2xl p-8 reveal">
+      <p class="text-lg font-bold text-green-900 mb-2">Butuh produk pertanian?</p>
+      <p class="text-gray-500 mb-5">Hubungi kami sekarang untuk info harga dan pemesanan.</p>
+      <a href="https://wa.me/6285251988382" class="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-bold transition text-sm pulse-cta">💬 Chat WhatsApp</a>
     </div>
   </section>
 </Layout>
