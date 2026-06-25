@@ -3,6 +3,7 @@ title: "Jual Asxone 138 SL Pangkalan Banteng Aman, Harga Terbaik di Green Al Fat
 description: "Cari Jual Asxone 138 SL Pangkalan Banteng? Dapatkan solusi pertanian terpercaya untuk hama tanaman Anda di Toko Tani Green Al Fatih. Produk asli dan konsultasi."
 pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
+image: "/images/jual-asxone-138-SL-pangkalan-banteng.webp"
 ---
 
 ## Butuh Asxone 138 SL di Pangkalan Banteng dan sekitarnya?

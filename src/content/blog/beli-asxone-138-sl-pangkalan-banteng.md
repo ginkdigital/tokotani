@@ -3,6 +3,7 @@ title: "Beli Asxone 138 SL Pangkalan Banteng: Gulma Mati Total Cuma 2 Jam Setela
 description: "Butuh Asxone 138 SL di Pangkalan Banteng? Herbisida kontak paling cepat: daun menguning dalam hitungan jam, akar mati total. Kirim seluruh Kalimantan. WA 0852-5198-8382."
 pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
+image: "/images/jual-asxone-138-SL-pangkalan-banteng-1024x576.webp"
 ---
 
 ## Kenapa Gulma Bikin Pusing Petani Pangkalan Banteng?

@@ -3,6 +3,7 @@ title: "Jual Asxone 138 SL Sampit: Solusi Ampuh Basmi Gulma di Lahan Anda!"
 description: "Cari Jual Asxone 138 SL Sampit? Temukan herbisida kontak efektif untuk pertanian Anda di Toko Tani GREEN AL FATIH. Kontrol gulma cepat, lahan bersih optimal."
 pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
+image: "/images/jual-asxone-138-SL-Kalimantan-tengah-toko-tani-green-al-fatih-171x300.webp"
 ---
 
 ## Butuh Asxone 138 SL di Sampit dan Kotawaringin Timur?

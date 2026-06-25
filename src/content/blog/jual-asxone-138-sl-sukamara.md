@@ -3,6 +3,7 @@ title: "Jual Asxone 138 SL Sukamara: Solusi Ampuh Hama Tanaman di Sukamara"
 description: "Cari Asxone 138 SL di Sukamara? Toko Tani GREEN AL FATIH tawarkan Asxone 138 SL untuk perlindungan tanaman dari hama. Dapatkan informasi produk dan harga di sin"
 pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
+image: "/images/jual-asxone-138-SL-Kalimantan-tengah-karang-mulya-171x300.webp"
 ---
 
 ## Butuh Asxone 138 SL di Sukamara dan sekitarnya?

@@ -3,6 +3,7 @@ title: "Pusat Herbisa, Pukuk & Bibit Green Al Fatih Pangkalan Banteng"
 description: "Toko Tani Green Al Fatih jual herbisida, fungisida, insektisida, pupuk, bibit, dan alat pertanian. Melayani seluruh KalTeng. 0852-5198-8382"
 pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
+image: "/images/jual-asxone-138-SL-Kalimantan-tengah-karang-mulya.webp"
 ---
 
 ## Butuh Asxone 138 SL di Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng)?

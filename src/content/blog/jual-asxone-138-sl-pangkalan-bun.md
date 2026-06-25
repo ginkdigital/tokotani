@@ -3,6 +3,7 @@ title: "Jual Asxone 138 SL Pangkalan Bun: Kualitas Terbaik untuk Hasil Panen Opt
 description: "Temukan tempat Jual Asxone 138 SL Pangkalan Bun berkualitas dengan harga bersaing di Toko Tani Green Al Fatih. Tingkatkan produktivitas pertanian Anda sekarang."
 pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
+image: "/images/Toko-Tani-Green-Al-Fatih-Asxone-138-SL.webp"
 ---
 
 ## Butuh Asxone 138 SL di Pangkalan Bun dan Kotawaringin Barat?

@@ -3,6 +3,7 @@ title: "Jual Asxone 138 SL Kalimantan Barat: Solusi Praktis Pengendalian Gulma A
 description: "Cari Asxone 138 SL di Kalimantan Barat? Temukan informasi produk lengkap, cara pakai, dan kisaran harga di Toko Tani GREEN AL FATIH. Pembelian Jual Asxone 138 S"
 pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
+image: "/images/jual-asxone-138-SL-Kalimantan-tengah-toko-tani-green-al-fatih-585x1024.webp"
 ---
 
 ## Butuh Asxone 138 SL di Kalimantan Barat (Pontianak, Ketapang, Sintang)?

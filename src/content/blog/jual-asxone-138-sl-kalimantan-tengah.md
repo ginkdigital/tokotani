@@ -3,6 +3,7 @@ title: "Jual Asxone 138 SL Kalimantan Tengah: Solusi Efisien Pertanian Optimal"
 description: "Mencari Jual Asxone 138 SL Kalimantan Tengah? Temukan panduan lengkap, harga pasaran, dan manfaat produk untuk hasil pertanian terbaik di Toko Tani Green Al Fat"
 pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
+image: "/images/Toko-Tani-Green-Al-Fatih-Asxone-138-SL-200x300.webp"
 ---
 
 ## Butuh Asxone 138 SL di Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng)?

@@ -3,6 +3,7 @@ title: "Jual Asxone 138 SL di Kalimantan – Toko Tani Green Al Fatih | 0852-519
 description: "Butuh Asxone 138 SL di Kalimantan? Toko Tani Green Al Fatih menyediakan Asxone 138 SL untuk petani. Tersedia pengiriman ke seluruh Kalimantan"
 pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
+image: "/images/Toko-Tani-Green-Al-Fatih-Asxone-138-SL-683x1024.webp"
 ---
 
 ## Butuh Asxone 138 SL di seluruh Kalimantan?

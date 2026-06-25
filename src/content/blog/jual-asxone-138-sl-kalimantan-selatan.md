@@ -3,6 +3,7 @@ title: "Jual Asxone 138 SL Kalimantan Selatan: Solusi Tepat Petani Sukses"
 description: "Cari Jual Asxone 138 SL Kalimantan Selatan? Temukan informasi lengkap manfaat Asxone 138 SL, aplikasi, dan kisaran harga di sini untuk pertanian Anda."
 pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
+image: "/images/jual-asxone-138-SL-Kalimantan-tengah-karang-mulya-585x1024.webp"
 ---
 
 ## Butuh Asxone 138 SL di Kalimantan Selatan (Banjarmasin, Banjarbaru, Martapura)?

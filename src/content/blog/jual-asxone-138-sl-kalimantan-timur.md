@@ -3,6 +3,7 @@ title: "Jual Asxone 138 SL Kalimantan Timur? Temukan Harga Terbaik Sekarang!"
 description: "Cari Asxone 138 SL di Kalimantan Timur? Toko Tani GREEN AL FATIH punya stoknya! Dapatkan informasi lengkap dan lokasi Jual Asxone 138 SL Kalimantan Timur."
 pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
+image: "/images/jual-asxone-138-SL-pangkalan-banteng-300x169.webp"
 ---
 
 ## Butuh Asxone 138 SL di Kalimantan Timur (Samarinda, Balikpapan, Kutai)?

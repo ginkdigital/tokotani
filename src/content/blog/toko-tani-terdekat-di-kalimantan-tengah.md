@@ -3,6 +3,7 @@ title: "Toko Tani Terdekat di Kalimantan Tengah"
 description: "Toko tani terdekat di kalimantan tengah khusus Sampit, Pangkalan Bun, Sukamara, Lamandau, Karang Mulya, Pangkalan Banteng | WA 0852-5198-8382"
 pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
+image: "/images/tokotani-owner.webp"
 ---
 
 ## Butuh Asxone 138 SL di Kalimantan Tengah (Sampit, Palangkaraya, Pangkalan Bun, Pangkalan Banteng)?

@@ -3,6 +3,7 @@ title: "Jual Asxone 138 SL Seruyan: Solusi Efektif Pengendali Gulma Terbaik"
 description: "Anda mencari Asxone 138 SL di Seruyan? Toko Tani Green Al Fatih menyediakan produk berkualitas. Dapatkan informasi detail manfaat dan cara pakai Asxone 138 SL u"
 pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
+image: "/images/jual-asxone-138-SL-Kalimantan-tengah-toko-tani-green-al-fatih.webp"
 ---
 
 ## Butuh Asxone 138 SL di Seruyan (Kuala Pembuang) dan sekitarnya?

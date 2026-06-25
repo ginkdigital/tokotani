@@ -3,6 +3,7 @@ title: "Jual Asxone 138 SL Kalimantan Utara: Solusi Ampuh Pertanian Anda"
 description: "Cari Asxone 138 SL di Kalimantan Utara? Temukan solusi herbisida terbaik untuk pertanian Anda. Toko Tani GREEN AL FATIH menyediakan produk berkualitas."
 pubDate: 2026-03-07
 author: "Toko Tani Green Al Fatih"
+image: "/images/jual-asxone-138-SL-pangkalan-banteng-768x432.webp"
 ---
 
 ## Butuh Asxone 138 SL di Kalimantan Utara (Tarakan, Tanjung Selor)?
