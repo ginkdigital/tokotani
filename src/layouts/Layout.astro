@@ -57,9 +57,9 @@ const { title, description } = Astro.props;
         <a href="/blog" class="hover:text-green-200 transition">Artikel</a>
         <a href="/kontak" class="hover:text-green-200 transition">Kontak</a>
       </nav>
-      <!-- WA button (always visible) -->
-      <a href="https://wa.me/6285251988382" class="bg-green-500 hover:bg-green-400 text-white px-3 py-2 md:px-4 md:py-2 rounded-full text-xs md:text-sm font-bold transition flex items-center gap-1 md:gap-2 shrink-0">
-        💬 <span class="hidden sm:inline">Order WA</span>
+      <!-- WA button (desktop only in header) -->
+      <a href="https://wa.me/6285251988382" class="hidden md:flex bg-green-500 hover:bg-green-400 text-white px-4 py-2 rounded-full text-sm font-bold transition items-center gap-2 shrink-0">
+        💬 Order WA
       </a>
       <!-- Hamburger (mobile only) -->
       <button id="menu-toggle" class="md:hidden text-white p-2 -mr-2" aria-label="Menu">
@@ -119,5 +119,9 @@ const { title, description } = Astro.props;
       <p>© 2026 Toko Tani Green Al Fatih. Website dikelola oleh <a href="https://avathur.id" class="text-green-400 hover:underline">WAKi</a> — Website Anti-Kiamat.</p>
     </div>
   </footer>
+  <!-- Floating WA FAB (mobile only) -->
+  <a href="https://wa.me/6285251988382" class="md:hidden fixed bottom-6 right-4 z-50 bg-green-500 hover:bg-green-400 text-white px-5 py-3 rounded-full shadow-lg font-bold text-sm transition flex items-center gap-2 animate-pulse" style="box-shadow: 0 4px 20px rgba(34,197,94,0.4);">
+    💬 Order WA
+  </a>
 </body>
 </html>
