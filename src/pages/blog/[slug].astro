@@ -7,24 +7,21 @@ marked.setOptions({ gfm: true, breaks: true });
 
 function renderBody(text) {
   if (!text) return '';
-  // Clean WP artifacts
   text = text.replace(/By\s*\n+\s*Gink Digital\s*\/\s*\n+\s*\w+ \d+, \d+/g, '');
-  text = text.replace(/📑 Daftar Isi[\s\S]*?(?=## )/, ''); // remove WP toc
+  text = text.replace(/📑 Daftar Isi[\s\S]*?(?=## )/, '');
   text = text.replace(/💡 Ringkasan\n+/g, '');
   
   let html = marked.parse(text);
   
-  // Post-process: add classes
   html = html.replace(/<h2/g, '<h2 class="article-h2"');
   html = html.replace(/<h3/g, '<h3 class="article-h3"');
   html = html.replace(/<ul/g, '<ul class="article-ul"');
   html = html.replace(/<ol/g, '<ol class="article-ol"');
   html = html.replace(/<blockquote/g, '<blockquote class="article-bq"');
-  html = html.replace(/<table/g, '<div class="overflow-x-auto"><table class="article-table"');
+  html = html.replace(/<table/g, '<div class="article-table-wrapper"><table class="article-table"');
   html = html.replace(/<\/table>/g, '</table></div>');
   html = html.replace(/<strong/g, '<strong class="article-strong"');
   
-  // Inject CTA mid-content (after 3rd H2 section)
   let h2Count = 0;
   html = html.replace(/<h2 class="article-h2"/g, (match) => {
     h2Count++;
@@ -50,47 +47,109 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const htmlContent = renderBody(post.body || '');
+
+// Sidebar area links
+const areaLinks = [
+  { label: 'Kalimantan Tengah', href: '/blog/jual-asxone-138-sl-kalimantan-tengah' },
+  { label: 'Kalimantan Barat', href: '/blog/jual-asxone-138-sl-kalimantan-barat' },
+  { label: 'Kalimantan Selatan', href: '/blog/jual-asxone-138-sl-kalimantan-selatan' },
+  { label: 'Kalimantan Timur', href: '/blog/jual-asxone-138-sl-kalimantan-timur' },
+  { label: 'Kalimantan Utara', href: '/blog/jual-asxone-138-sl-kalimantan-utara' },
+  { label: 'Sampit', href: '/blog/jual-asxone-138-sl-sampit' },
+  { label: 'Pangkalan Bun', href: '/blog/jual-asxone-138-sl-pangkalan-bun' },
+  { label: 'Pangkalan Banteng', href: '/blog/jual-asxone-138-sl-pangkalan-banteng' },
+  { label: 'Sukamara', href: '/blog/jual-asxone-138-sl-sukamara' },
+  { label: 'Seruyan', href: '/blog/jual-asxone-138-sl-seruyan' },
+];
 ---
 
 <Layout title={post.data.title} description={post.data.description}>
-  <!-- Reading progress bar -->
   <div id="progress-bar" class="fixed top-0 left-0 h-1 bg-green-500 z-[60] transition-all duration-150" style="width:0%"></div>
 
-  <article class="py-8 sm:py-12 md:py-16 px-4 max-w-2xl mx-auto">
-    <!-- Header -->
-    <header class="mb-8 text-center">
-      <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 leading-tight">{post.data.title}</h1>
-      <p class="text-gray-500 text-base sm:text-lg max-w-xl mx-auto">{post.data.description}</p>
-    </header>
+  <div class="max-w-6xl mx-auto px-4 py-8 sm:py-12 md:py-16">
+    <div class="flex flex-col md:flex-row gap-8 lg:gap-12">
+      
+      <!-- ARTICLE (left) -->
+      <article class="flex-1 min-w-0">
+        <header class="mb-8 text-center">
+          <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 leading-tight">{post.data.title}</h1>
+          <p class="text-gray-500 text-base sm:text-lg max-w-xl mx-auto">{post.data.description}</p>
+        </header>
 
-    <!-- Table of Contents -->
-    <nav class="bg-gray-50 rounded-xl p-4 mb-10 text-sm" id="toc">
-      <details class="md:hidden">
-        <summary class="font-bold cursor-pointer text-green-800">📑 Daftar Isi</summary>
-        <div class="mt-2 space-y-1" id="toc-mobile"></div>
-      </details>
-      <div class="hidden md:block">
-        <div class="font-bold mb-2 text-xs uppercase tracking-wide text-gray-400">Daftar Isi</div>
-        <div class="space-y-1" id="toc-desktop"></div>
-      </div>
-    </nav>
+        <nav class="bg-gray-50 rounded-xl p-4 mb-10 text-sm" id="toc">
+          <details class="md:hidden">
+            <summary class="font-bold cursor-pointer text-green-800">📑 Daftar Isi</summary>
+            <div class="mt-2 space-y-1" id="toc-mobile"></div>
+          </details>
+          <div class="hidden md:block">
+            <div class="font-bold mb-2 text-xs uppercase tracking-wide text-gray-400">Daftar Isi</div>
+            <div class="space-y-1" id="toc-desktop"></div>
+          </div>
+        </nav>
 
-    <!-- Article body -->
-    <div class="article-body" id="article-content">
-      <Fragment set:html={htmlContent} />
+        <div class="article-body" id="article-content">
+          <Fragment set:html={htmlContent} />
+        </div>
+
+        <footer class="mt-12 pt-8 border-t text-center md:hidden">
+          <p class="text-gray-500 text-sm mb-4">Butuh produk? Hubungi kami sekarang:</p>
+          <a href="https://wa.me/6285251988382" class="inline-block bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-bold transition text-sm pulse-cta">💬 Chat WhatsApp</a>
+        </footer>
+      </article>
+
+      <!-- SIDEBAR (right) -->
+      <aside class="md:w-72 lg:w-80 shrink-0">
+        <div class="md:sticky md:top-24 space-y-5">
+
+          <!-- Order Card -->
+          <div class="bg-white border rounded-2xl p-5 shadow-sm text-center">
+            <div class="text-4xl mb-2">🧪</div>
+            <h3 class="font-bold text-lg mb-1">Asxone 138 SL</h3>
+            <p class="text-xs text-gray-500 mb-3">Herbisida Kontak Purna Tumbuh</p>
+            <a href="https://wa.me/6285251988382?text=Halo%2C%20saya%20mau%20order%20Asxone%20138%20SL" class="block bg-green-600 hover:bg-green-700 text-white py-3 px-4 rounded-full font-bold transition text-sm mb-2">💬 Order Sekarang</a>
+            <p class="text-xs text-gray-400">📞 0852-5198-8382</p>
+          </div>
+
+          <!-- Area Pengiriman -->
+          <div class="bg-white border rounded-2xl p-5 shadow-sm">
+            <h3 class="font-bold text-sm mb-3 flex items-center gap-2">📍 Area Pengiriman</h3>
+            <div class="space-y-0.5 text-sm max-h-64 overflow-y-auto">
+              {areaLinks.map(link => (
+                <a href={link.href} class="block py-1.5 px-2 rounded-lg text-gray-600 hover:bg-green-50 hover:text-green-700 transition text-sm">
+                  {link.label}
+                </a>
+              ))}
+              <a href="/pengiriman" class="block py-1.5 px-2 rounded-lg text-green-700 font-medium hover:bg-green-50 transition text-sm">Selengkapnya →</a>
+            </div>
+          </div>
+
+          <!-- Jam Operasional -->
+          <div class="bg-white border rounded-2xl p-5 shadow-sm text-sm">
+            <h3 class="font-bold mb-3 flex items-center gap-2">🕐 Jam Operasional</h3>
+            <div class="space-y-1 text-gray-600">
+              <p class="flex justify-between"><span>Senin - Sabtu</span> <span class="font-medium">08.00 - 17.00</span></p>
+              <p class="flex justify-between"><span>Minggu</span> <span class="text-red-500">Tutup</span></p>
+            </div>
+          </div>
+
+          <!-- Google Maps -->
+          <div class="bg-white border rounded-2xl p-5 shadow-sm text-sm text-center">
+            <p class="text-gray-600 mb-2">📍 Pangkalan Banteng, Kalteng</p>
+            <a href="https://maps.app.goo.gl/AGGdMgXS8a7JY6Qb9" target="_blank" class="inline-block bg-gray-100 hover:bg-gray-200 text-gray-700 px-4 py-2 rounded-lg font-medium transition text-sm">🗺️ Buka Google Maps</a>
+          </div>
+
+          <!-- CTA Footer (desktop) -->
+          <div class="hidden md:block text-center pt-2">
+            <a href="https://wa.me/6285251988382" class="inline-block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full font-bold transition text-sm pulse-cta w-full">💬 Chat WhatsApp</a>
+          </div>
+
+        </div>
+      </aside>
+
     </div>
-
-    <!-- Footer CTA -->
-    <footer class="mt-12 pt-8 border-t text-center">
-      <p class="text-gray-500 text-sm mb-4">Butuh produk? Hubungi kami sekarang:</p>
-      <a href="https://wa.me/6285251988382" class="inline-block bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full font-bold transition text-sm pulse-cta">
-        💬 Chat WhatsApp
-      </a>
-    </footer>
-  </article>
+  </div>
 </Layout>
 
-<!-- Styles -->
 <style is:global>
 .article-body {
   font-size: 17px;
@@ -184,22 +243,19 @@ hr { border: none; height: 1px; background: linear-gradient(90deg, transparent, 
   text-align: center;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .article-body { font-size: 16px; }
   .article-h2 { font-size: 1.25rem; }
 }
 </style>
 
-<!-- Scripts -->
 <script>
-  // Reading progress
   window.addEventListener('scroll', () => {
     const s = document.documentElement.scrollTop;
     const h = document.documentElement.scrollHeight - window.innerHeight;
     document.getElementById('progress-bar').style.width = Math.min(100, (s/h)*100) + '%';
   });
 
-  // Auto-generate TOC
   document.addEventListener('DOMContentLoaded', () => {
     const h2s = document.querySelectorAll('.article-h2');
     const tocD = document.getElementById('toc-desktop');
@@ -210,7 +266,6 @@ hr { border: none; height: 1px; background: linear-gradient(90deg, transparent, 
       if (tocD) tocD.innerHTML += link;
       if (tocM) tocM.innerHTML += link;
     });
-    // Hide TOC if no H2s
     if (h2s.length === 0) document.getElementById('toc').style.display = 'none';
   });
 </script>
