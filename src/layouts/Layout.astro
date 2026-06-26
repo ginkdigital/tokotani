@@ -10,10 +10,17 @@ const { title, description } = Astro.props;
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title} | Toko Tani Green Al Fatih</title>
   <meta name="description" content={description} />
-  <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />
   <link rel="icon" type="image/webp" sizes="32x32" href="/images/cropped-Logo-Green-Al-Fatih-32x32.webp">
   <link rel="icon" type="image/webp" sizes="192x192" href="/images/cropped-Logo-Green-Al-Fatih-192x192.webp">
   <link rel="apple-touch-icon" href="/images/cropped-Logo-Green-Al-Fatih-180x180.webp">
+  <!-- GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7RBRG1KHPX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-7RBRG1KHPX');
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
