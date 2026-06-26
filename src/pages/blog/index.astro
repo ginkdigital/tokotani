@@ -6,7 +6,7 @@ const posts = await getCollection('blog');
 const sortedPosts = posts.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 ---
 
-<Layout title="Artikel" description="Artikel dan informasi seputar produk pertanian, herbisida, dan tips bertani dari Toko Tani Green Al Fatih.">
+<Layout breadcrumb={[{label: "Artikel"}]} title="Artikel" description="Artikel dan informasi seputar produk pertanian, herbisida, dan tips bertani dari Toko Tani Green Al Fatih.">
   <!-- Hero -->
   <section class="bg-gradient-to-br from-green-800 via-green-700 to-emerald-800 text-white py-12 sm:py-16 md:py-20 px-4 text-center reveal">
     <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">Artikel & Panduan</h1>

@@ -95,6 +95,23 @@ const { title, description } = Astro.props;
   </script>
 
   <main>
+    {Astro.props.breadcrumb && (
+      <nav class="max-w-6xl mx-auto px-4 py-3 text-sm text-gray-500" aria-label="Breadcrumb">
+        <ol class="flex flex-wrap items-center gap-1">
+          <li><a href="/" class="hover:text-green-700 transition">Beranda</a></li>
+          {Astro.props.breadcrumb.map((item: {label: string, href?: string}) => (
+            <li class="flex items-center gap-1">
+              <span class="mx-1">/</span>
+              {item.href ? (
+                <a href={item.href} class="hover:text-green-700 transition">{item.label}</a>
+              ) : (
+                <span class="text-gray-800 font-medium">{item.label}</span>
+              )}
+            </li>
+          ))}
+        </ol>
+      </nav>
+    )}
     <slot />
   </main>
 

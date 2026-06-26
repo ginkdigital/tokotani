@@ -63,7 +63,7 @@ const areaLinks = [
 ];
 ---
 
-<Layout title={post.data.title} description={post.data.description}>
+<Layout title={post.data.title} description={post.data.description} breadcrumb={[{label: "Artikel", href: "/blog"}, {label: post.data.title}]}>
   <div id="progress-bar" class="fixed top-0 left-0 h-1 bg-green-500 z-[60] transition-all duration-150" style="width:0%"></div>
 
   <div class="max-w-6xl mx-auto px-4 py-8 sm:py-12 md:py-16">
